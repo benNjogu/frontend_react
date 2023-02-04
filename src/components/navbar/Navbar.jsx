@@ -7,6 +7,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const tabsArray = ["home", "about", "work", "skills", "contact"];
 
   return (
     <nav className="app__navbar">
@@ -14,7 +15,7 @@ const Navbar = () => {
         <img src={images.logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "work", "skills", "contact"].map((item) => (
+        {tabsArray.map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             {" "}
             <div /> <a href={`#${item}`}>{item}</a>{" "}
@@ -31,7 +32,7 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul className="app__navbar-links">
-              {["home", "about", "work", "skills", "contact"].map((item) => (
+              {tabsArray.map((item) => (
                 <li key={item}>
                   {" "}
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
