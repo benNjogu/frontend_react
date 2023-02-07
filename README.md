@@ -8,6 +8,7 @@ phone
 tablet
 
 ![portfolio tablet](https://user-images.githubusercontent.com/60463836/217272011-7d657d07-4d2c-4c99-be64-733a038b0669.PNG)
+![tablet nav](https://user-images.githubusercontent.com/60463836/217273183-f9a4acc0-aafa-4d09-9f4e-b4f9f4dea042.PNG)
 
 laptop
 
