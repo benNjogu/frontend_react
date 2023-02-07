@@ -3,6 +3,7 @@ Portfolio using react, framer motion and sanity. Fully responsive!
 phone
 
 ![portfolio phone](https://user-images.githubusercontent.com/60463836/217271998-0de52b7a-c1ca-4d3a-9e7c-a0738c3e48d7.PNG)
+![phone nav](https://user-images.githubusercontent.com/60463836/217272722-3168a574-ab5f-4939-936e-3318f3d18123.PNG)
 
 tablet
 
